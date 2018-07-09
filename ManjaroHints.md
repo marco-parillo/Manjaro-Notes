@@ -13,7 +13,7 @@ And remove the ones you do not want.
 
 * Configuration files may change. Most changes are harmless to most users, but users should know [how to manage pacnew and pacsave files](https://wiki.manjaro.org/index.php?title=Pacnew_and_Pacsave_Files).
 
-* Permissions can differ. [For example](https://forum.manjaro.org/t/stable-update-2018-07-06-kernels-firefox-virtualbox-python-haskell/51574/2):
+* Default permissions can change over time. [For example](https://forum.manjaro.org/t/stable-update-2018-07-06-kernels-firefox-virtualbox-python-haskell/51574/2):
 Directory permissions differ on /var/lib/samba/private/
 filesystem: 755 package: 700
 So, you are advised to change them with:
