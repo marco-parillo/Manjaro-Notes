@@ -18,3 +18,7 @@ Directory permissions differ on /var/lib/samba/private/
 filesystem: 755 package: 700
 So, you are advised to change them with:
 `$ sudo chmod 700 /var/lib/samba/private/`
+
+$ sudo gpasswd -a yourusername sys
+[sudo] password for mparillo: 
+Adding user mparillo to group sys
