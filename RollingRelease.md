@@ -2,7 +2,7 @@ What that means is that your installed packages are at the same version as in th
 
 For example, if you read all the release announcements you might learn that:
 
-* A package was removed because it becomes problematic. For example: Plymouth was removed from new ISOs, and you had to manually [remove it](https://wiki.manjaro.org/index.php?title=Plymouth#Removal) for your installation to boot the same way as an installaiton from a newer ISO.
+* A package was removed because it becomes problematic. For example: Plymouth was removed from new ISOs, and you had to manually [remove it](https://wiki.manjaro.org/index.php?title=Plymouth#Removal) for your installation to boot the same way as an installation from a newer ISO.
 
 * A package could be 'demoted' to the AUR. You can list your AUR packages with:
 `$ pacman -Qm`
