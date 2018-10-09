@@ -8,16 +8,21 @@ May also need
 ```
 sudo pacman -Si gtk3-print-backends
 ```
-Printers > Add Printers
 
-Wait for Discovered Network Printers
+To Print:
 
-EPSON WF-2760 Series
+ * Printers > Add Printers
 
-IPP Seems Default
+ * Wait for Discovered Network Printers
 
-Searching for Drivers
+ * EPSON WF-2760 Series
 
-Take the second (non-driverless)
+ * IPP Seems Default
 
-Print (Epson Epson)
+ * Searching for Drivers
+
+ * Take the second (non-driverless)
+
+ * Print (Epson Epson)
+
+falkon --disable-gpu
