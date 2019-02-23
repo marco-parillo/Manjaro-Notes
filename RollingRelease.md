@@ -4,6 +4,10 @@ For example, if you read all the release announcements you might learn that:
 
 * A package was removed because it becomes problematic. For example: Plymouth was removed from new ISOs, and you had to manually [remove it](https://wiki.manjaro.org/index.php?title=Plymouth#Removal) for your installation to boot the same way as an installation from a newer ISO.
 
+* A package was added, for example 
+`ms-office-online`
+You would never get it unless you manually added it.
+
 * A package could be 'demoted' to the AUR. You can list your AUR packages with:
 `$ pacman -Qm`
 And remove the ones you do not want.
