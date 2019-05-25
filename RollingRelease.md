@@ -8,7 +8,7 @@ For example, if you read all the release announcements you might learn that:
 `ms-office-online`
 You would never get it unless you manually added it.
 
-* A package could be 'demoted' to the AUR. For example, openssl-1.0 was used with steam. but dropped from the Manjaro repos. You can list your AUR packages with:
+* A package could be 'demoted' to the AUR. For example, `openssl-1.0` was used with steam. but dropped from the Manjaro repos. You can list your AUR packages with:
 `$ pacman -Qm`
 And remove the ones you do not want. But if you do not, you will have AUR packages that would not be on a freshly-installed Manjaro.
 
