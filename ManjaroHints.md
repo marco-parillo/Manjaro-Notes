@@ -13,7 +13,7 @@ To Print:
 
  * Printers > Add Printers
 
- * Wait for Discovered Network Printers
+ * Wait for Discovered Network Printers (need to be on the same wireless network)
 
  * EPSON WF-2760 Series
 
