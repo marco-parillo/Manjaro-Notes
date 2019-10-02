@@ -28,3 +28,8 @@ To Print:
 falkon --disable-gpu
 
 Last release without discover: https://osdn.net/projects/manjaro/storage/kde/18.0-rc1/
+
+Date of installation
+```
+$ stat / | grep Birth
+```
