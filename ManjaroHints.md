@@ -33,3 +33,11 @@ Date of installation
 ```
 $ stat / | grep Birth
 ```
+
+If ordering a new laptop:
+ * No Secureboot
+ * No CSM
+ * No Legacy
+ * No fastboot
+ * Disks on AHCI
+ * EFI only
