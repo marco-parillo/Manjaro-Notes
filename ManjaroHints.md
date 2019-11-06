@@ -30,8 +30,8 @@ $ stat / | grep Birth
 
 If ordering a new laptop:
  * No Secureboot
+ * No Fast Boot
+ * EFI only
  * No CSM
  * No Legacy
- * No fastboot
  * No RAID; Disks on AHCI
- * EFI only
