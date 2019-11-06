@@ -33,5 +33,5 @@ If ordering a new laptop:
  * No CSM
  * No Legacy
  * No fastboot
- * Disks on AHCI
+ * No RAID; Disks on AHCI
  * EFI only
