@@ -22,3 +22,7 @@ And remove the ones you do not want. But if you do not, you will have AUR packag
 `filesystem: 755 package: 700`
 So, you are advised to change them with:
 `$ sudo chmod 700 /var/lib/samba/private/`
+
+* The default kernel can get upgraded. In my case, I have been happily running 4.19 for years, but to match a freshly-installed Manjaro running 5.x, I would need to use [Manjaro Settings Manager](https://wiki.manjaro.org/index.php/Manjaro_Kernels#GUI_Tool) or the terminal equivelents.
+
+Now, with manual effort, none of these are impossible, but it is important to be clear to newbies that, wth a rolling release, if you set it and forget it, your packages get upgraded, but your system will *not* match a fresh installation.
