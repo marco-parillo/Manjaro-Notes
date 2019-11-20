@@ -33,7 +33,7 @@ If ordering a new laptop:
  * No Fast Boot
  * EFI only
  * No CSM
- * No Legacy
+ * No Legacy BIOS/MBR boot.
  * No RAID; Disks on AHCI
 
 VPN
