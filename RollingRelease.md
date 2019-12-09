@@ -1,8 +1,10 @@
-What that means is that your installed packages are at the same version as in the mirror you sync with. However, a newbie might think that means that your installation is identical to a freshly-installed ISO.
+What that means is that your installed packages are at the same version as in the mirror you sync with. However, a newbie might think that means that your installation is identical to a freshly-installed ISO, when it is not.
 
 For example, if you read all the release announcements you might learn that:
 
 * A package was removed because it becomes problematic. For example: Plymouth was removed from new ISOs, and you had to manually [remove it](https://wiki.manjaro.org/index.php?title=Plymouth#Removal) for your installation to boot the same way as an installation from a newer ISO.
+
+* A package was could be replaced with a different one performing much the same function. So, for example, on the Manjaro KDE edition, Octopi was replaced by pamac. Unless you manually removed Octopi and installed pamac, you would be using a different front-end to your package manager.
 
 * A package was added, for example 
 `ms-office-online`
