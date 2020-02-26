@@ -10,7 +10,7 @@ For example, if you read all the release announcements you might learn that:
 `ms-office-online`
 You would never get it unless you manually added it.
 
-* Themes might be upgraded, for example from breath to breath2, but [you will need to manually download the packages and change the themes yourself](https://forum.manjaro.org/t/manjaro-19-0-released/126148/2?u=mparillo).
+* Themes might be upgraded, for example from breath to breath2, but [you will need to manually download the packages and change the themes yourself](https://forum.manjaro.org/t/manjaro-19-0-released/126148/2).
 
 * A package could be 'demoted' to the AUR. For example, `openssl-1.0` was used with steam. but dropped from the Manjaro repos. You can list your AUR packages with:
 `$ pacman -Qm`
