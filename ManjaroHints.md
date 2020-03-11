@@ -9,6 +9,13 @@ May also need
 sudo pacman -Si gtk3-print-backends
 ```
 
+The theme package does not automatically come with the update. If you want it, install the following packages:
+
+ * breath2-icon-themes
+ * breath2-wallpaper
+ * plasma5-themes-breath2
+ * sddm-breath2-theme
+
 To Print:
 
  * Printers > Add Printers
