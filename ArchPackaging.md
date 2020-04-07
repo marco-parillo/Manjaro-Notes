@@ -263,5 +263,10 @@ Total Installed Size:  0.93 MiB
 (1/1) installing plasma5-applets-simplemonitor-map   [###########################] 100%
 :: Running post-transaction hooks...
 (1/1) Arming ConditionNeedsUpdate...
+```
 
+On second installation:
+```
+$ makepkg
+$ sudo pacman -U plasma5-applets-simplemonitor-map-0.6.3-1-any.pkg.tar.xz --overwrite '*'
 ```
