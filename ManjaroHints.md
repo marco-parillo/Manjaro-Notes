@@ -43,6 +43,18 @@ If ordering a new laptop:
  * No Legacy BIOS/MBR boot.
  * No RAID; Disks on AHCI
 
+```
+$ su -
+Password: 
+[marco-T61 ~]# echo "kernel.sysrq=1" > /etc/sysctl.d/99-sysctl.conf
+[marco-T61 ~]# exit
+logout
+[mparillo@marco-T61 ~]$ cat /etc/sysctl.d/99-sysctl.conf
+kernel.sysrq=1
+[mparillo@marco-T61 ~]$ 
+```
+
+
 VPN
 VPN Page: https://remote.vpn.comcast.net/
 The first time click on the Web Network Access Link, and download the file 
