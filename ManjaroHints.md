@@ -1,4 +1,6 @@
-# CUPS needs sys
+# Printing
+
+CUPS needs sys
 ```
 $ sudo gpasswd -a mparillo sys
 [sudo] password for mparillo: 
@@ -8,14 +10,6 @@ May also need
 ```
 sudo pacman -Si gtk3-print-backends
 ```
-
-The theme package does not automatically come with the update. If you want it, install the following packages:
-
- * breath2-icon-themes
- * breath2-wallpaper
- * plasma5-themes-breath2
- * sddm-breath2-theme
-
 To Print:
 
  * Printers > Add Printers
@@ -26,9 +20,17 @@ To Print:
  * Take the second (non-driverless)
  * Print (Epson Epson)
 
-# falkon --disable-gpu
+# New Manjaro Themes
+The theme package does not automatically come with the update. If you want it, install the following packages:
 
-# Last release without discover: https://osdn.net/projects/manjaro/storage/kde/18.0-rc1/
+ * breath2-icon-themes
+ * breath2-wallpaper
+ * plasma5-themes-breath2
+ * sddm-breath2-theme
+
+# Falkon rendering
+
+falkon --disable-gpu
 
 # Date of installation
 ```
@@ -57,20 +59,17 @@ kernel.sysrq=1
 
 
 # VPN
-VPN Page: https://remote.vpn.comcast.net/
-The first time click on the Web Network Access Link, and download the file 
-Save the .deb Firefox plugin
-Convert to Arch Package
-Install debtap: https://aur.archlinux.org/packages/debtap/
+ * VPN Page: https://remote.vpn.comcast.net/
+ * The first time click on the Web Network Access Link, and download the file 
+ * Save the .deb Firefox plugin
+ * Convert to Arch Package
+ * Install debtap: https://aur.archlinux.org/packages/debtap/
+```
 $ sudo debtap -u
 $ debtap linux_f5vpn.x86_64.deb
-Install the generated package (in my case)
 $ sudo pacman -U f5vpn-7170.2018.0626.1-1-x86_64.pkg.tar.xz
-
-
-
-
-. Then you can reload the page, login, and it sends an MFA request
+```
+Then you can reload the page, login, and it sends an MFA request
 
 # Only unique commands in Bash History.
 
