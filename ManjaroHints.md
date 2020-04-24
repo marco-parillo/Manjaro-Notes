@@ -1,4 +1,4 @@
-CUPS needs sys
+# CUPS needs sys
 ```
 $ sudo gpasswd -a mparillo sys
 [sudo] password for mparillo: 
@@ -26,16 +26,16 @@ To Print:
  * Take the second (non-driverless)
  * Print (Epson Epson)
 
-falkon --disable-gpu
+# falkon --disable-gpu
 
-Last release without discover: https://osdn.net/projects/manjaro/storage/kde/18.0-rc1/
+# Last release without discover: https://osdn.net/projects/manjaro/storage/kde/18.0-rc1/
 
-Date of installation
+# Date of installation
 ```
 $ stat / | grep Birth
 ```
 
-If ordering a new laptop:
+# If ordering a new laptop:
  * No Secureboot
  * No Fast Boot
  * EFI only
@@ -43,6 +43,7 @@ If ordering a new laptop:
  * No Legacy BIOS/MBR boot.
  * No RAID; Disks on AHCI
 
+# REISUB
 ```
 $ su -
 Password: 
@@ -55,7 +56,7 @@ kernel.sysrq=1
 ```
 
 
-VPN
+# VPN
 VPN Page: https://remote.vpn.comcast.net/
 The first time click on the Web Network Access Link, and download the file 
 Save the .deb Firefox plugin
@@ -70,3 +71,10 @@ $ sudo pacman -U f5vpn-7170.2018.0626.1-1-x86_64.pkg.tar.xz
 
 
 . Then you can reload the page, login, and it sends an MFA request
+
+# Only unique commands in Bash History.
+
+Edit ~/.bash_profile
+```
+export HISTCONTROL=ignoreboth:erasedups
+```
