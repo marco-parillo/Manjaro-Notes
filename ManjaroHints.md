@@ -78,7 +78,7 @@ Edit ~/.bash_profile
 export HISTCONTROL=ignoreboth:erasedups
 ```
 
-#VMWare
+# VMWare
 
 Edit /etc/mkinitcpio.conf and comment out the old MODULES, replacing it:
 ```
