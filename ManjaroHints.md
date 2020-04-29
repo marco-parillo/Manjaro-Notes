@@ -77,3 +77,17 @@ Edit ~/.bash_profile
 ```
 export HISTCONTROL=ignoreboth:erasedups
 ```
+
+#VMWare
+
+Edit /etc/mkinitcpio.conf and comment out the old MODULES, replacing it:
+```
+# MODULES=""
+MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)
+```
+Regenerate the initramfs simply by doing an upgrade (if possible), or rebuild initramfs and grub config
+```
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+And reboot
