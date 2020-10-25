@@ -90,4 +90,18 @@ Regenerate the initramfs simply by doing an upgrade (if possible), or rebuild in
 sudo mkinitcpio -P
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
-And reboot
+And reboot.
+
+Or maybe llvmpipe
+
+```
+Operating System: Manjaro Linux
+KDE Plasma Version: 5.20.80
+KDE Frameworks Version: 5.76.0
+Qt Version: 5.15.1
+Kernel Version: 5.8.16-2-MANJARO
+OS Type: 64-bit
+Processor: 1 × Intel® Core™ i7-6600U CPU @ 2.60GHz
+Memory: 1.9 GiB of RAM
+Graphics Processor: llvmpipe
+```
