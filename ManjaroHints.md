@@ -45,6 +45,15 @@ $ stat / | grep Birth
  * No Legacy BIOS/MBR boot.
  * No RAID; Disks on AHCI
 
+# Dual-booting with Windows:
+ * Use latest available firmware
+ * Disable Intel Optane memory
+ * Disable RAID option
+ * Enable AHCI
+ * Disable Secure Boot
+ * Disable Fast Boot
+ * Disable CSM (Legacy/MBR) boot
+
 # REISUB
 ```
 $ su -
