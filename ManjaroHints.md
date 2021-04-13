@@ -54,6 +54,18 @@ $ stat / | grep Birth
  * Disable Fast Boot
  * Disable CSM (Legacy/MBR) boot
 
+# HP EFI
+https://archived.forum.manjaro.org/t/hp-elitebook-in-bios-mode-manjaro-boots-automatically-but-not-in-efi-mode/35054/18
+```
+$ cd /boot/efi/EFI
+$ sudo mkdir Microsoft
+$ cd Microsoft
+$ sudo mkdir Boot
+$ cd Boot
+$ sudo cp /boot/grub/x86_64-efi/core.efi  bootmgfw.efi
+```
+From: https://askubuntu.com/questions/244261/how-do-i-get-my-hp-laptop-to-boot-into-grub-from-my-new-efi-file
+
 # REISUB
 ```
 $ su -
