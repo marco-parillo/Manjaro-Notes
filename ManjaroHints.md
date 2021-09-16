@@ -126,3 +126,12 @@ Processor: 1 × Intel® Core™ i7-6600U CPU @ 2.60GHz
 Memory: 1.9 GiB of RAM
 Graphics Processor: llvmpipe
 ```
+
+# KDE Unstable
+
+Manjaro also has a [kde-unstable repo](https://forum.manjaro.org/t/how-can-i-get-kde-unstable-repository-on-manjaro/79319/4). You can add it in pacman.conf - add it between [core] and [extra] for best result.
+
+```
+[kde-unstable]
+Include = /etc/pacman.d/mirrorlist
+```
