@@ -99,7 +99,13 @@ Edit ~/.bash_profile
 export HISTCONTROL=ignoreboth:erasedups
 ```
 
-# VMWare
+# Virtualization
+
+## KVM
+
+[How to Install KVM on Manjaro Linux](https://manjaro.site/how-to-install-kvm-on-manjaro-linux/)
+
+## VMWare
 
 Edit /etc/mkinitcpio.conf and comment out the old MODULES, replacing it:
 ```
