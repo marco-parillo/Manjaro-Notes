@@ -1,6 +1,15 @@
 # Printing
 
-CUPS needs sys
+## Print without CUPS
+
+```
+nc netlaser 9100 < sample.txt
+nc 192.168.1.226 9100 < file.pdf
+
+```
+[Hat Tip](https://retrohacker.substack.com/p/bye-cups-printing-with-netcat).
+
+## CUPS needs sys
 ```
 $ sudo gpasswd -a mparillo sys
 [sudo] password for mparillo: 
